@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        legend{
+            font-size:20px;
+        }
+        input{
+            border-radius:4%;
+        }
+        table{
+            border:1px solid black;
+        }
+        form{
+            background-color:rgb(219, 232, 232);
+        }
+        body{
+            display:flex;
+            justify-content:center;
+        }
+    </style>
+
+</head>
+<body>
+    <form style="border:2px solid black; width:1000px; padding:50px;">
+        
+            <h1 style="margin-bottom:10px"><b>COLLEGE ADMISSION FORM</b></legend></h1>
+                <label for="fname"><b>1.Enter Your Name:</b></label><br><br>
+                <input type="text" size="30" placeholder="firstname" id="fname"  name="fname">
+                <input type="text" size="30" placeholder="middlename" id="mname" name="mname">
+                <input type="text" size="30" placeholder="lastname" id="lname" name="lname" ><br><br>
+               
+                <label for="birthdate"><b>2.Date of Birth</b></label><br>
+                <input type="datetime-local" id="dt" name="dt"><br><br>
+                <label for="age"><b>3.Age</b></label><br>
+                <input type="number" id="age" name="age"><br><br>
+                <label for="email"><b>4.Enter Your Email:</b></label>
+                <input type="text" id="email" placeholder="abc@gmail.com" name="email"><br><br>
+                <label for="gender"><b>5.Gender</b></label><br>
+                <input type="radio" id="male" name="gender" >
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="gender">
+                <label for="">Others</label><br><br>
+                <label for=""><b>6.Which country Citizen?</b></label><br><br>
+                <input type="radio" id="citizen" name="citizen1">
+                <label for="indian">INDIAN</label>
+                <input type="radio" id="citizen2" name="citizen1">
+                <label for="others">OTHER COUNTRY</label><br><br>
+                <label for="phonenumber"><b>7.Mobile Number</b></label>
+                <input type="tel" placeholder="1234567890" id="phn" name="phn"  pattern="[0-9]{10}"><br><br>
+                <label for="address"><b>8.Address</b></label><br><br>
+                <label for="address">Street Address</label> 
+                <input type="text" id="address" name="address">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city">
+                <label for="pincode">Pincode</label>
+                <input type="text" id="pin" name="pin"><br><br>
+                <label for="education"><b>10.Education Background</b></label><br><br>
+                <label for="detail1">Name of the School</label>
+                <input type="text" id="school" name="school"><br><br>
+                <label for="detail2">Grade Scored</label>
+                <input type="text" id="grade" name="grade"><br><br>
+                <label for="passed">Year of Passed </label>
+                <input type="text" id="pass" name="pass"><br><br>
+                <label for="family"><b>11.Family Background</b></label><br><br>
+                <label for="fam1">Father Name</label>
+                <input type="text" id="father" name="father">
+                <label for="fam1">Occupation</label>
+                <input type="text" id="occu" name="occu"><br><br>
+                <label for="fam2">Mother Name</label>
+                <input type="text" id="mother" name="mother">
+                <label for="fam2">Occupation</label>
+                <input type="text" id="occu1" name="occu1"><br><br>
+                <label for="payment"><b>12.Payment Details</b></label><br><br>
+                <input type="checkbox" id="pay" name="pay">
+                <label for="payment">cash</label>
+                <input type="checkbox" id="pay1" name="pay1">
+                <label for="payment">card</label><br><br>
+                <label for="lang"><b>13.Languages spoken</b></label>
+                <input size="40" type="text" id="lang" name="lang"><br><br>
+                <label for="sib"><b>14.Details of Siblings</b></label><br><br>
+                
+                    <ol>
+                <li><input type="text" id="sib1" name="sib1"></li><br>
+                <li><input type="text" id="sib2" name="sib2"></li>
+                </ol>
+                <label for="password"><b>13.set password</b></label><br><br>
+                <input type="password" id="password" name="password" pattern="[A-Za-z]{6}"><br><br>
+                <label for="select"><b>14.10th memo</b></label><br><br>
+                <input type="file" multiple><br><br>
+                
+
+
+                
+               
+                
+                <input size="30" type="submit" value="signup">
+           
+       
+    </form>
+</body>
+</html>
